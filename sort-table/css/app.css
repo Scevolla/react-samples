@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.filter-products-block {
+  max-width: 500px;
+  padding: 10px;
+  padding-top: 20px;
+  margin: 20px auto;
+  border: 1px solid #333;
+  background-color: #fafafa;
+}
+
+.search-block {
+  margin-bottom: 20px;
+}
+
+.search-block input[type=text],
+.search-block label {
+  display: block;
+}
+
+.search-block input[type=text] {
+  min-width: 50%;
+  padding: 3px 5px;
+  margin-bottom: 10px;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.product-table {
+  width: 100%;
+  background-color: #eee;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #888;
+}
+
+.product-table td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.product-table__header {
+  text-transform: uppercase;
+  background-color: #fffee8;
+}
+
+.product-table__category {
+  padding-top: 3px;
+  padding-bottom: 3px;  
+  background-color: #ddd;
+  text-transform: uppercase;
+}
+
+.product-table__name {
+  width: 70%;
+}
+
+.product-table__name--nostock {
+  color: #f00;
+}
+
+.product-table__price {
+  text-align: right;
+}
